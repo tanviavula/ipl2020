@@ -1,0 +1,52 @@
+<div class="row">
+    <div class="col-md-8">
+        <div *ngIf="teamDetails">
+            <p class="lead">
+                The teams which are going play 2020 IPL matches
+            </p>
+            <table class="table table-sm" *ngIf="teamDetails.length > 0">
+                <thead>
+                    <tr>
+                        <th>Label</th>
+                        <th>Team</th>
+                        <th>City</th>
+                        <th>Home</th>
+                        <th>Coach</th>
+                        <th>More</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let team of teamDetails">
+                        <td>{{team.label}}</td>
+                        <td>{{team.team}}</td>
+                        <td>{{team.city}}</td>
+                        <td>{{team.home}}</td>
+                        <td>{{team.coach}}</td>
+                        <td><a href="#">More...</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <p class="lead">
+            Team Summary Details
+        </p>
+            <table class="table table-sm" *ngIf="summaryList && summaryList.length > 0">
+                <tr>
+                    <th>Team</th>
+                    <th>Amount</th>
+                    <th>MaxAmount</th>
+                    <th>MinAmount</th>
+                </tr>
+                <tr *ngFor="let summary of summaryList">
+                    <td>{{summary.label}}</td>
+                    <td>{{summary.amount | currency:'INR'}}</td>
+                    <td>{{summary.maxAmount | currency:'INR'}}</td>
+                    <td>{{summary.minAmount | currency:'INR'}}</td>
+                    
+                </tr>
+            </table>
+        
+    </div>
+</div>

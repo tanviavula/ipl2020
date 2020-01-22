@@ -1,7 +1,10 @@
 [
-    {"city":"Mumbai, Maharashtra","coach":"Mahela Jaywardene","home":"Wankhede Stadium, Mumbai","team":"Mumbai Indians","label":"MI"},{"city":"Chennai, Tamil Nadu","coach":"Stephen Fleming","home":"M.A. Chidambaram Stadium, Chennai","team":"Chennai Super Kings","label":"CSK"},{"city":"Delhi, NCR","coach":"Ricky Ponting","home":"Feroz Shah Kotla Ground","team":"Delhi Capitals","label":"DC"},
+    {"city":"Mumbai, Maharashtra","coach":"Mahela Jaywardene","home":"Wankhede Stadium, Mumbai","team":"Mumbai Indians","label":"MI"},
+    {"city":"Chennai, Tamil Nadu","coach":"Stephen Fleming","home":"M.A. Chidambaram Stadium, Chennai","team":"Chennai Super Kings","label":"CSK"},
+    {"city":"Delhi, NCR","coach":"Ricky Ponting","home":"Feroz Shah Kotla Ground","team":"Delhi Capitals","label":"DC"},
     {"city":"Mohali, Punjab","coach":"Anil Kumble","home":"IS Bindra Stadium","team":"Kings XI Punjab","label":"KXIP"},
     {"city":"Kolkata, West Bengal","coach":"Brendon McCullum","home":"Eden Gardens","team":"Kolkata Knight Riders","label":"KKR"},
     {"city":"Jaipur, Rajasthan","coach":"Andrew McDonald","home":"Sawai Mansingh Stadium","team":"Rajasthan Royals","label":"RR"},
-    {"city":"Bengaluru, Karnataka","coach":"Simon Katich","home":"M. Chinnaswamy Stadium","team":"Royal Challengers Bangalore","label":"RCB"},{"city":"Hyderabad, Telengana","coach":"Trevor Bayliss","home":"Rajiv Gandhi International Cricket Stadium","team":"Sunrisers Hyderabad","label":"SH"}
+    {"city":"Bengaluru, Karnataka","coach":"Simon Katich","home":"M. Chinnaswamy Stadium","team":"Royal Challengers Bangalore","label":"RCB"},
+    {"city":"Hyderabad, Telengana","coach":"Trevor Bayliss","home":"Rajiv Gandhi International Cricket Stadium","team":"Sunrisers Hyderabad","label":"SH"}
 ]
